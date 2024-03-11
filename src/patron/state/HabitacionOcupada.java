@@ -11,7 +11,7 @@ public class HabitacionOcupada implements HabitacionEstado {
 	@Override
 	public HabitacionEstado liberar() {
 		System.out.println("La habitacion necesita limpieza");
-		return new HabitacionLimpieza();
+		return new HabitacionSucia();
 	}
 
 	@Override
